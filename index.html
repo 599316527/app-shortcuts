@@ -1,0 +1,75 @@
+<!doctype html>
+<html manifest="index.appcache">
+
+<head>
+    <meta charset="utf-8">
+    <title>中出支付婊</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link href="lib/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="lib/mui-0.2.10/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="lib/mui-0.2.10/js/mui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="mui-container">
+        <div class="mui-appbar mui--z1">
+            <div class="mui-row">
+                <div class="mui-col-xs-10">
+                    <h1>App 捷径</h1>
+                </div>
+                <div class="mui-col-xs-2 mui--text-right">
+                    <h2><i class="fa fa-road"></i></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="mui-panel">
+            <h2><i class="fa fa-paypal"></i> 支付婊</h2>
+            <div>
+                <a class="mui-btn mui-btn--large mui-btn--primary"
+                    href="alipayqr://platformapi/startapp?saId=10000007">
+                    <i class="fa fa-camera"></i> 扫码</a>
+                <a class="mui-btn mui-btn--large mui-btn--danger"
+                    href="alipayqr://platformapi/startapp?saId=20000056">
+                    <i class="fa fa-qrcode"></i> 付款码</a>
+            </div>
+        </div>
+
+        <div class="mui-panel">
+            <h2><i class="fa fa-weixin"></i> 微信</h2>
+            <div>
+                <a class="mui-btn mui-btn--large mui-btn--accent"
+                    href="weixin://dl/scan">
+                    <i class="fa fa-camera-retro"></i> 扫一扫</a>
+                <a class="mui-btn mui-btn--large mui-btn--primary"
+                    href="weixin://dl/moments">
+                    <i class="fa fa-dot-circle-o"></i> 朋友圈</a>
+            </div>
+        </div>
+
+        <div class="mui--text-center">
+            <div class="mui--text-primary-87 mui--text-body1">
+                <i class="fa fa-info"></i> 添加到主屏幕以快速访问
+            </div>
+            <div><br/></div>
+            <div class="mui--text-black-54 mui--text-caption">
+                <span class="mui--divider-right">
+                    Via. <a href="https://twitter.com/humiaozuzu/status/687110048368099328"
+                        target="_blank">Twitter</a>
+                &nbsp;</span>&nbsp;
+                <span>
+                    By <a href="https://hk1229.cn/" target="_blank">@kyleehee</a>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

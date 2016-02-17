@@ -1,0 +1,21 @@
+
+.mui-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mui-appbar {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.overlay-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-box .mui-panel {
+    padding: 2em 4em;
+}
